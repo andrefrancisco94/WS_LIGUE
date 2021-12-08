@@ -50,6 +50,7 @@ Obs: Para adicionar uma nova ocorrencia, necessita o preenchimento das KEY's (va
      -> OCORRENENG       "Representa o campo X5_DESCRIENG"
 
 O sistema irá retornar nesse modelo em JSON:
+
     [{"Chave":02,"Ocorrencia":DESCRICAO,"RECNO":11490}]
     
 ```
@@ -95,3 +96,22 @@ O sistema irá retornar nesse modelo em JSON:
 ```
 
 
+---
+## Tratamento dos ERROS:
+
+
+#### Foram adicionados retornos em caso de erros na execução e pontos de BEGIN TRANSACTION, com retornos:
+```bash
+
+>> Retorno se acaso algum campo obrigatório não esteja preenchido no comando, para que não quebre as informações no Banco de Dados:
+    • Código: 400 - Descrição: "Solicitacao incorreta, campos obrigatorios nao preenchidos!"
+
+>> Retorno se acaso o RECNO inserido no comando já esteja excluido do Banco de Dados:
+    • Código: 410 - Descrição: "Nao existe mais, o registro ja foi deletado!"
+    
+>> Retorno se acaso o BEGIN TRANSACTION falhar devido a algum erro de sistema ou Banco de Dados:
+    • Código: 500 - Descrição: "Erro interno do servidor!"
+    
+
+    
+```
