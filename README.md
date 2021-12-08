@@ -114,3 +114,17 @@ O sistema irá retornar nesse modelo em JSON:
     • Código: 500 - Descrição: "Erro interno do servidor!"
     
 ```
+
+
+
+## Parametros do COnfigurador:
+
+
+#### Foram adicionados dois parametros para conter os valores de Filial e Tabela:
+```bash
+
+>> MV_ZTABPAD --> Parametro que contém a tabela de referencia, caso não seje criado ele fica com valor Defaut "ZZ"
+
+>> MV_ZFILPAD --> Parametro que contém a Filial de referencia, caso não seje criado ele fica com valor Defaut "LG01"
+    
+```
