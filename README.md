@@ -15,7 +15,7 @@ Esse projeto foi desenvolvido com o objetivo de participar do processo seletivo 
 
 ```bash
 
-• 'Retorno de ocorrencia(s)' 
+• Retorno de ocorrencia(s):
 
 - Comando: http://localhost:8400/rest/WSLIGUE/ocurrences/ (Não precisa adicionar nenhuma outra informação)
 - Comando com RECNO' - Comando: http://localhost:8400/rest/WSLIGUE/ocurrences/"Digite o número do RECNO aqui"
@@ -39,7 +39,7 @@ O sistema irá retornar nesse modelo em JSON:
 ## Method "POST"
 ```bash
 
-• 'Adiciona uma nova ocorrencia' 
+• Adiciona uma nova ocorrencia:
 
 - Comando: http://localhost:8400/rest/WSLIGUE/ocurrences/
 
@@ -58,7 +58,7 @@ O sistema irá retornar nesse modelo em JSON:
 ## Method "PUT"
 ```bash
 
-• 'Atualiza os dados de ocorrencia(s)' 
+• Atualiza os dados de ocorrencia(s):
 
 - Comando com RECNO: http://localhost:8400/rest/WSLIGUE/ocurrences/"Digite o número do RECNO aqui"
 
@@ -78,7 +78,7 @@ O sistema irá retornar nesse modelo em JSON:
 ## Method "DELETE"
 ```bash
 
-• 'Delela o registro de uma ocorrencia' 
+• Delela o registro de uma ocorrencia:
 
 - Comando com RECNO: http://localhost:8400/rest/WSLIGUE/ocurrences/"Digite o número do RECNO aqui"
 
