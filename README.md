@@ -83,12 +83,6 @@ O sistema irá retornar nesse modelo em JSON:
 
 - Comando com RECNO: http://localhost:8400/rest/WSLIGUE/ocurrences/"Digite o número do RECNO aqui"
 
-Obs: Para atualizar uma ocorrência já existente, necessita o preenchimento do nuúmero de recno no comando e também das KEY's (variáveis) abaixo:
-     -> CHAVE            "Representa a X5_CHAVE"
-     -> OCORRENPTB       "Representa o campo X5_DESCRI"
-     -> OCORRENSPA       "Representa o campo X5_DESCRISPA"
-     -> OCORRENENG       "Representa o campo X5_DESCRIENG"
-
 O sistema irá retornar nesse modelo em JSON:
 
     [{"Chave":02,"Ocorrencia":DESCRICAO,"RECNO":11480,"Situacao":REGISTRO DELETADO COM SUCESSO!}]
