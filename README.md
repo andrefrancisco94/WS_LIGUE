@@ -117,11 +117,12 @@ O sistema irá retornar nesse modelo em JSON:
 
 
 
-## Parametros do COnfigurador:
+## Parametros do Configurador:
 
 
 #### Foram adicionados dois parametros para conter os valores de Filial e Tabela:
 ```bash
+
 
 >> MV_ZTABPAD --> Parametro que contém a tabela de referencia, caso não seje criado ele fica com valor Defaut "ZZ"
 
