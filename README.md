@@ -14,8 +14,11 @@ Esse projeto foi desenvolvido com o objetivo de participar do processo seletivo 
 ## Method "GET"
 
 ```bash
-• 'Retorno de ocorrencia(s)' - Comando: http://localhost:8400/rest/WSLIGUE/ocurrences/ (Não precisa adicionar nenhuma outra informação)
-• 'Retorno de ocorrencia(s) com RECNO' - Comando: http://localhost:8400/rest/WSLIGUE/ocurrences/"Digite o número do RECNO aqui"
+
+• 'Retorno de ocorrencia(s)' 
+
+- Comando: http://localhost:8400/rest/WSLIGUE/ocurrences/ (Não precisa adicionar nenhuma outra informação)
+- Comando com RECNO' - Comando: http://localhost:8400/rest/WSLIGUE/ocurrences/"Digite o número do RECNO aqui"
 
 Obs: Para pesquisar e retornar a ocorrência com base no RECNO, apenas digitar o número do RECNO após { /ocurrences/ }, por exemplo:
      http://localhost:8400/rest/WSLIGUE/ocurrences/11481, onde o RECNO é o "11481"
@@ -36,7 +39,9 @@ O sistema irá retornar nesse modelo em JSON:
 ## Method "POST"
 ```bash
 
-• 'Adiciona uma nova ocorrencia' - Comando: http://localhost:8400/rest/WSLIGUE/ocurrences/
+• 'Adiciona uma nova ocorrencia' 
+
+- Comando: http://localhost:8400/rest/WSLIGUE/ocurrences/
 
 Obs: Para adicionar uma nova ocorrencia, necessita o preenchimento das KEY's (variáveis) abaixo:
      -> CHAVE            "Representa a X5_CHAVE"
@@ -53,7 +58,9 @@ O sistema irá retornar nesse modelo em JSON:
 ## Method "PUT"
 ```bash
 
-• 'Atualiza os dados de ocorrencia(s)' - Comando: http://localhost:8400/rest/WSLIGUE/ocurrences/"Digite o número do RECNO aqui"
+• 'Atualiza os dados de ocorrencia(s)' 
+
+- Comando com RECNO: http://localhost:8400/rest/WSLIGUE/ocurrences/"Digite o número do RECNO aqui"
 
 Obs: Para atualizar uma ocorrência já existente, necessita o preenchimento do nuúmero de recno no comando e também das KEY's (variáveis) abaixo:
      -> CHAVE            "Representa a X5_CHAVE"
@@ -71,7 +78,9 @@ O sistema irá retornar nesse modelo em JSON:
 ## Method "DELETE"
 ```bash
 
-• 'Delela o registro de uma ocorrencia' - Comando: http://localhost:8400/rest/WSLIGUE/ocurrences/"Digite o número do RECNO aqui"
+• 'Delela o registro de uma ocorrencia' 
+
+- Comando com RECNO: http://localhost:8400/rest/WSLIGUE/ocurrences/"Digite o número do RECNO aqui"
 
 Obs: Para atualizar uma ocorrência já existente, necessita o preenchimento do nuúmero de recno no comando e também das KEY's (variáveis) abaixo:
      -> CHAVE            "Representa a X5_CHAVE"
