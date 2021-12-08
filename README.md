@@ -96,11 +96,12 @@ O sistema irá retornar nesse modelo em JSON:
 ```
 
 
+
 ---
 ## Tratamento dos ERROS:
 
 
-#### Foram adicionados retornos em caso de erros na execução e pontos de BEGIN TRANSACTION, com retornos:
+#### Foram adicionados retornos em caso de erros na execução, ou falhas no BEGIN TRANSACTION:
 ```bash
 
 >> Retorno se acaso algum campo obrigatório não esteja preenchido no comando, para que não quebre as informações no Banco de Dados:
@@ -111,7 +112,5 @@ O sistema irá retornar nesse modelo em JSON:
     
 >> Retorno se acaso o BEGIN TRANSACTION falhar devido a algum erro de sistema ou Banco de Dados:
     • Código: 500 - Descrição: "Erro interno do servidor!"
-    
-
     
 ```
