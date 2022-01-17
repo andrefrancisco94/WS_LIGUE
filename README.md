@@ -11,7 +11,7 @@ Esse projeto foi desenvolvido com o objetivo de participar do processo seletivo 
 ---
 ### Modelos de chamadas do WEBSERVICE REST
 
-## Method "GET"
+## Method "GET" (Buscando os dados oficiais)
 
 ```bash
 
